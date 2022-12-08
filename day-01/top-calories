@@ -1,0 +1,26 @@
+#!/usr/bin/java --source 19
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+public class Calories {
+
+  public static void main(String[] args) throws IOException {
+
+    var lines = Files.readAllLines(Path.of("input.txt"));
+    var maxCalories = -1;
+    var currentElfCalories = 0;
+    for (var line : lines) {
+      if (line.equals("")) {
+        if (currentElfCalories > maxCalories) {
+          maxCalories = currentElfCalories;
+        }
+        currentElfCalories = 0;
+      } else {
+        currentElfCalories += Integer.parseInt(line);
+      }
+    }
+    System.out.println("Max Calories: " + maxCalories);
+  }
+}

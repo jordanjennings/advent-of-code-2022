@@ -1,0 +1,28 @@
+#!/usr/bin/java --source 19
+
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class TopThreeCalories {
+
+  public static void main(String[] args) throws IOException {
+
+    var snacksByElf = Files.readString(Path.of("input.txt")).split("\n\n");
+
+    var topThreeCaloriesSum =
+        Arrays.stream(snacksByElf)
+            .map(singleElfSnacks -> {
+              var calories = singleElfSnacks.split("\n");
+              return Arrays.stream(calories).mapToInt(Integer::parseInt).sum();
+            })
+            .sorted(Comparator.reverseOrder())
+            .limit(3)
+            .mapToInt(Integer::intValue)
+            .sum();
+
+    System.out.println("Top Three Calorie Sum: " + topThreeCaloriesSum);
+  }
+}
