@@ -9,6 +9,7 @@
 | [Day 5](day-05) | Groovy (4.0.6)             |
 | [Day 6](day-06) | JavaScript (Node 18)       |
 | [Day 7](day-07) | Kotlin Script (1.7.20 JVM) |
+| [Day 8](day-08) | Kotlin Script (1.7.20 JVM) |
 
 ## Languages To Try
 
