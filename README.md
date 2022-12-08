@@ -7,6 +7,7 @@
 | [Day 3](day-03) | SQL (sqlite 3.39.4)       |
 | [Day 4](day-04) | Bash                      |
 | [Day 5](day-05) | Groovy (4.0.6)            |
+| [Day 6](day-06) | JavaScript (Node 18)      |
 
 ## Languages To Try
 
@@ -20,7 +21,6 @@
 - C#
 - Ruby
 - Perl
-- JavaScript
 - PHP
 - Swift
 - TypeScript
