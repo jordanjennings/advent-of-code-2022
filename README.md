@@ -10,11 +10,12 @@
 | [Day 6](day-06) | JavaScript (Node 18)       |
 | [Day 7](day-07) | Kotlin Script (1.7.20 JVM) |
 | [Day 8](day-08) | Kotlin Script (1.7.20 JVM) |
+| [Day 9](day-09) | TypeScript                 |
 
 ## Languages To Try
 
 - Scala
-- Closure
+- Clojure
 - Rust
 - Go
 - C
@@ -24,7 +25,6 @@
 - Perl
 - PHP
 - Swift
-- TypeScript
 - Dart
 - F#
 - Lua
