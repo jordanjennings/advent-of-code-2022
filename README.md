@@ -12,10 +12,10 @@
 | [Day 8](day-08)  | Kotlin Script (1.7.20 JVM) |
 | [Day 9](day-09)  | TypeScript                 |
 | [Day 10](day-10) | Clojure                    |
+| [Day 11](day-11) | Scala 3.2.1                |
 
 ## Languages To Try
 
-- Scala
 - Rust
 - Go
 - C
