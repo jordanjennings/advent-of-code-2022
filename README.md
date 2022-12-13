@@ -13,6 +13,7 @@
 | [Day 9](day-09)  | TypeScript                 |
 | [Day 10](day-10) | Clojure                    |
 | [Day 11](day-11) | Scala 3.2.1                |
+| [Day 12](day-12) | Ruby 2.6.10                |
 
 ## Languages To Try
 
@@ -21,7 +22,6 @@
 - C
 - C++
 - C#
-- Ruby
 - Perl
 - PHP
 - Swift
