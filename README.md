@@ -15,6 +15,7 @@
 | [Day 11](day-11) | Scala 3.2.1                |
 | [Day 12](day-12) | Ruby 2.6.10                |
 | [Day 13](day-13) | Go 1.19                    |
+| [Day 14](day-14) | Go 1.19                    |
 
 ## Languages To Try
 
